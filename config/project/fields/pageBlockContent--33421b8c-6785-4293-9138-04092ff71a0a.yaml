@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 0251da4f-848d-44fd-b1e3-3d99e7497aad # Common
+handle: pageBlockContent
+instructions: null
+name: 'Page Block Content'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_pageblockcontent}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

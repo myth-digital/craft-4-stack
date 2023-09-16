@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: homepage
+name: Homepage
+propagationMethod: all
+siteSettings:
+  4930992f-525c-475e-9723-4617531c9573: # Volaris
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/home.twig
+    uriFormat: __home__
+type: single

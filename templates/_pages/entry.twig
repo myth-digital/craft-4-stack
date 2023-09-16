@@ -1,0 +1,5 @@
+{% if entry.type == 'pageTemplate' %}
+  {% include entry.pageTemplateUri %}
+{% else %}
+  {% include "_pages/types/" ~ entry.type %}
+{% endif %}

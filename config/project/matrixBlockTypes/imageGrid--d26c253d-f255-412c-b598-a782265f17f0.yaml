@@ -1,0 +1,419 @@
+field: 33421b8c-6785-4293-9138-04092ff71a0a # Page Block Content
+fieldLayouts:
+  0f1a29b6-bc29-4c9f-a558-6c21dc383cc1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ee1aa30e-677c-4cee-8209-389d9659e802 # Images
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f85ccc1f-dc92-4064-88eb-68a83c1ff43a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: eb75ff3f-8333-4093-9a41-e3608000c3bb # Padding
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fb4d6965-4937-41ff-ae31-644827a48de4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 421c4956-4801-47da-846e-09ec97112a08 # Padded Images
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f5bf526e-e43a-4480-969a-2040c476c06e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3685bd7e-fc81-41b7-9625-55963ef871ae # Container
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a12c3792-1c81-468a-88d0-e4a31a8c33ee
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 454c06c2-0822-48d0-ae2a-06891c1647ca # Grid Columns
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 13db90c1-15e6-4de0-a074-095763714baa
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c111097b-f383-4518-81d8-a4dadf875a13 # Background Color
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6822af05-8a4a-4adb-90b7-e0377431c9be
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 70a9ddbe-8a7c-445f-beed-e56c5c87b062 # Text Color
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3a27985e-85a0-4940-b079-671f8b8ac80f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 613b97d2-594a-41a3-97ed-be0278b7ce6f
+        userCondition: null
+fields:
+  70a9ddbe-8a7c-445f-beed-e56c5c87b062: # Text Color
+    columnSuffix: tobcjitu
+    contentColumnType: string(5)
+    fieldGroup: null
+    handle: textColor
+    instructions: null
+    name: 'Text Color'
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - dark
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - light
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  421c4956-4801-47da-846e-09ec97112a08: # Padded Images
+    columnSuffix: hjlhnhbp
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: paddedImages
+    instructions: 'Select this option if you wish to add padding between columns.'
+    name: 'Padded Images'
+    searchable: false
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  454c06c2-0822-48d0-ae2a-06891c1647ca: # Grid Columns
+    columnSuffix: peieewpj
+    contentColumnType: string(2)
+    fieldGroup: null
+    handle: gridColumns
+    instructions: 'Enter the number of grid columns in multiples of 2.'
+    name: 'Grid Columns'
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - '2'
+            -
+              - value
+              - '2'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '4'
+            -
+              - value
+              - '4'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '6'
+            -
+              - value
+              - '6'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '8'
+            -
+              - value
+              - '8'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '10'
+            -
+              - value
+              - '10'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '12'
+            -
+              - value
+              - '12'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  3685bd7e-fc81-41b7-9625-55963ef871ae: # Container
+    columnSuffix: asndjpzl
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: container
+    instructions: null
+    name: Container
+    searchable: false
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  c111097b-f383-4518-81d8-a4dadf875a13: # Background Color
+    columnSuffix: tczbhqta
+    contentColumnType: string(9)
+    fieldGroup: null
+    handle: backgroundColor
+    instructions: null
+    name: 'Background Color'
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - White
+            -
+              - value
+              - white
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - primary
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - secondary
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Light Gray'
+            -
+              - value
+              - lightGray
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Dark Gray'
+            -
+              - value
+              - darkGray
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  eb75ff3f-8333-4093-9a41-e3608000c3bb: # Padding
+    columnSuffix: dulgxzcj
+    contentColumnType: string(9)
+    fieldGroup: null
+    handle: padding
+    instructions: null
+    name: Padding
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - none
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - TopBottom
+            -
+              - value
+              - topBottom
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Top
+            -
+              - value
+              - top
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Bottom
+            -
+              - value
+              - bottom
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  ee1aa30e-677c-4cee-8209-389d9659e802: # Images
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: images
+    instructions: null
+    name: Images
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:150cc690-95a5-452b-8fcb-941d33fa0831' # General
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:150cc690-95a5-452b-8fcb-941d33fa0831' # General
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'Add image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: imageGrid
+name: 'Image Grid'
+sortOrder: 2

@@ -1,0 +1,11 @@
+{%- minify -%}
+{% embed '_components/section' with { padding: block.padding.value, container: true, class: style } %}
+  {% block sectionContent %}
+
+    <div class="text-{{ block.alignment }} {{ block.fullWidth ? '' : 'space-y-8 max-w-2xl' }} font-sans-primary {{ block.alignment == 'center' ? 'mx-auto' }}">
+      {{ block.heading }}
+    </div>
+
+  {% endblock %}
+{% endembed %}
+{%- endminify -%}

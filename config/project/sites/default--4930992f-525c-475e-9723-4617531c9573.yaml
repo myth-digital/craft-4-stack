@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-GB
+name: Volaris
+primary: true
+siteGroup: 854deff4-9a47-4f63-8fef-23a6c0361720 # Volaris
+sortOrder: 1

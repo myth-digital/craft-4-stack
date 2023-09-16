@@ -1,0 +1,23 @@
+<header 
+  class="header w-full p-6 sm:p-10 md:p-8 lg:px-14 lg:py-10 flex justify-between items-center z-40 {{ headerStyle is defined ? ( headerStyle == 'dark' ? 'header--dark' : ( headerStyle == 'light' ? 'header--light' : 'header--transparent' )) }}"
+  x-data="scrollToReveal()" 
+  x-ref="navbar"
+  x-on:scroll.window="scroll()"
+  x-bind:class="{
+    'scrolled': hasScrolled,
+    'nav-show': sticky,
+    'nav-hide': !sticky
+    }">
+  <a href="{{ siteUrl }}">{% include '_components/logo' with { fill: headerStyle is defined ? ( headerStyle == 'dark' or headerStyle == 'transparent' ? 'FFFFFF' : '000000'), size: '24' } %}</a>
+  <nav class="hidden md:block header--nav text-md space-x-6 tracking-tight">
+    <a href="{{ siteUrl }}" class="px-2">Home</a>
+  </nav>
+
+  <button class="mobile-nav--trigger fixed top-6 right-6 w-8 h-8 z-50 focus:outline-none md:hidden mobile-nav-open" onclick="toggleMenu()">
+    <span class="sr-only">Menu</span>
+    <div class="block w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <span aria-hidden="true" class="line block absolute w-6 bg-current transform transition duration-500 ease-in-out -translate-y-1.5"></span>
+        <span aria-hidden="true" class="line block absolute w-6 bg-current transform transition duration-500 ease-in-out translate-y-1.5"></span>
+    </div>
+  </button>
+</header>

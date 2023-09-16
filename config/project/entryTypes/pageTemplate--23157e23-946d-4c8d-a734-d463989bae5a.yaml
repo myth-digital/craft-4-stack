@@ -1,0 +1,84 @@
+fieldLayouts:
+  0c9919f1-c096-42ea-aace-39205c46ace3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c19d2191-9d7c-4a85-8077-12716f41ce82
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 33421b8c-6785-4293-9138-04092ff71a0a # Page Block Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e2c64cb8-e481-4da9-8112-8d046622cbaa
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: de19e1de-72d3-4483-bb1c-5f1a47c0902f
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dismissible: false
+            elementCondition: null
+            style: warning
+            tip: 'Please ignore, this area is for development purposes only.'
+            type: craft\fieldlayoutelements\Tip
+            uid: e1c8beb8-6fa0-47a1-ab9e-28f7a38f83bc
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: c82ff260-0362-4393-b157-ad3425cffb90 # Page Template URI
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f520458a-0dd5-43ae-8784-50c5764dff8a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Template
+        uid: 9f33aff3-ef27-4b81-b294-57b35ea0c78b
+        userCondition: null
+handle: pageTemplate
+hasTitleField: true
+name: 'Page - Template'
+section: 8bb55eac-8754-41b7-a599-5c9c0464384a # Page
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

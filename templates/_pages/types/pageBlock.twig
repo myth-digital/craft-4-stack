@@ -1,0 +1,30 @@
+{% extends "_layout/global" %}
+
+{# ------- Set header style ------- #}
+{% set headerStyle = 'light' %}
+
+{% block content %}
+   {%- minify -%}
+
+      {# ------- Variables ------- #}
+
+      {# ------- Template ------- #}
+      {% for block in entry.pageBlockContent.all() %}
+         {% set classes = 'bg-' ~ (block.backgroundColor ? block.backgroundColor : 'white') %}
+         {% set classes = classes ~ ' text-' ~ (block.textColor ? block.textColor : 'black') %}
+
+         {% include '_blocks/_' ~ block.type.handle with { style: classes } %}
+      {% endfor %}
+
+   {%- endminify -%}
+{% endblock %}
+
+{# ------- Critical CSS ------- #}
+
+{% block criticalCss %}
+  {% if entry is defined %}
+    {% apply spaceless %}
+        {{ source ('_criticalCss/' ~ entry.slug ~ '.css', ignore_missing = true) }}
+    {% endapply %}
+  {% endif %}
+{% endblock %}

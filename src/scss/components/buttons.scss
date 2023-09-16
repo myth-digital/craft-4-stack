@@ -1,0 +1,20 @@
+.btn {
+  @apply
+     px-5
+     py-3
+     font-medium;
+  &-rounded {
+    @apply rounded-full;
+  }
+  &-primary {
+    @apply
+       bg-black
+       text-white;
+    &.btn-outline {
+      @apply
+        bg-transparent
+        border-2
+        border-white;
+    }
+  }
+} 

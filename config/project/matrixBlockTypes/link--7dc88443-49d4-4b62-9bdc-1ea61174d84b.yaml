@@ -1,0 +1,105 @@
+field: da359cb4-78db-467d-b169-a51e0e0b5db1 # Case Study Meta
+fieldLayouts:
+  3d9fc494-d549-4918-a69d-6f331c0fd05e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4c1a45e8-d149-4b52-8715-f60dd6e32cdf # Text Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aaab2ce3-88d2-4e8d-bcba-68f5682a9e9f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6b626795-b3d3-4a9f-9290-14258ff1d2cd # Text Content
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ff17e055-bf95-419d-8887-af43a96a17ea
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: afdb7cf2-f301-47d6-be84-63e2233a71aa # Text URL
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 00daba50-90f6-42dd-945a-bb1fe352ab55
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: dc51d0ed-6990-4677-b81a-edfd2974243d
+        userCondition: null
+fields:
+  4c1a45e8-d149-4b52-8715-f60dd6e32cdf: # Text Title
+    columnSuffix: pwozytoe
+    contentColumnType: text
+    fieldGroup: null
+    handle: textTitle
+    instructions: null
+    name: 'Text Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  6b626795-b3d3-4a9f-9290-14258ff1d2cd: # Text Content
+    columnSuffix: crvnymzr
+    contentColumnType: text
+    fieldGroup: null
+    handle: textContent
+    instructions: null
+    name: 'Text Content'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  afdb7cf2-f301-47d6-be84-63e2233a71aa: # Text URL
+    columnSuffix: bxxifutb
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: textURL
+    instructions: null
+    name: 'Text URL'
+    searchable: false
+    settings:
+      maxLength: 255
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+handle: link
+name: Link
+sortOrder: 2

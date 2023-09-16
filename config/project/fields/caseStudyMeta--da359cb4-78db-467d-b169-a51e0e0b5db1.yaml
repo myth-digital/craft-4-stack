@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 6fc38edc-42e7-4ded-96ca-e79a84fce1f9 # Case Studies
+handle: caseStudyMeta
+instructions: null
+name: 'Case Study Meta'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_casestudymeta}}'
+  maxBlocks: null
+  minBlocks: 0
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

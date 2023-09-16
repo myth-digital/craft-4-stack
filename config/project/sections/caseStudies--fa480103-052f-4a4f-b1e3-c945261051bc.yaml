@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: caseStudies
+name: 'Case Studies'
+propagationMethod: all
+siteSettings:
+  4930992f-525c-475e-9723-4617531c9573: # Volaris
+    enabledByDefault: true
+    hasUrls: true
+    template: success-stories/_entry
+    uriFormat: 'success-stories/{slug}'
+structure:
+  maxLevels: null
+  uid: 79066fe6-1ba7-47e2-94a1-0789a99cd63f
+type: structure

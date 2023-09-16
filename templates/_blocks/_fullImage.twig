@@ -1,0 +1,13 @@
+{%- minify -%}
+{% embed '_components/section' with { padding: 'none', container: block.container, class: style } %}
+  {% block sectionContent %}
+    {% set image = block.image.one() %}
+
+    <div class="w-full">
+      {% set imageSizes = [{ width: 1566 }] %}
+      {% include '_components/picture' with { lazy: false, image: image, transform: imageSizes, alt: image.alt } %}
+    </div>
+
+  {% endblock %}
+{% endembed %}
+{%- endminify -%}

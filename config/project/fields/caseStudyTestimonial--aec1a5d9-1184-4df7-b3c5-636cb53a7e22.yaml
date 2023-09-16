@@ -1,0 +1,44 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 6fc38edc-42e7-4ded-96ca-e79a84fce1f9 # Case Studies
+handle: caseStudyTestimonial
+instructions: null
+name: 'Case Study Testimonial'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 891534267
+  columns:
+    __assoc__:
+      -
+        - 7aa3f96c-e9f9-4250-9bcd-1b3bdc3bd44b # Testimonial Content
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - fec7c5c9-032a-4bee-b377-6307aa8adc42 # Client
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 9ea2ad89-6173-46c9-b767-87dfc01e7630 # Testimonial Photo
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_casestudytestimonial}}'
+  fieldLayout: row
+  maxRows: 1
+  minRows: 1
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: true
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField

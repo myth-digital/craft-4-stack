@@ -1,0 +1,19 @@
+columnSuffix: ajvdpots
+contentColumnType: text
+fieldGroup: 0251da4f-848d-44fd-b1e3-3d99e7497aad # Common
+handle: pageTemplateUri
+instructions: 'Enter the page template URI to link to the template.'
+name: 'Page Template URI'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

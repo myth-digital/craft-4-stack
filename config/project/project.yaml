@@ -1,0 +1,135 @@
+dateModified: 1694856357
+email:
+  fromEmail: dev@mythdigital.co
+  fromName: Volaris
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  general:
+    hasUrls: true
+    name: General
+    settings:
+      bucket: $SPACES_BUCKET
+      contentDisposition: ''
+      endpoint: $SPACES_ENDPOINT
+      expires: ''
+      keyId: $SPACES_API_KEY
+      region: $SPACES_REGION
+      secret: $SPACES_SECRET
+      subfolder: images/general
+    type: vaersaagod\dospaces\Fs
+    url: $SPACES_BASE_URL
+  resources:
+    hasUrls: true
+    name: Resources
+    settings:
+      bucket: $SPACES_BUCKET
+      contentDisposition: ''
+      endpoint: $SPACES_ENDPOINT
+      expires: ''
+      keyId: $SPACES_API_KEY
+      region: $SPACES_REGION
+      secret: $SPACES_SECRET
+      subfolder: files/resources
+    type: vaersaagod\dospaces\Fs
+    url: $SPACES_BASE_URL
+meta:
+  __names__:
+    3c728594-6779-4645-a109-eae666db19bc: Alignment # Alignment
+    4c1a45e8-d149-4b52-8715-f60dd6e32cdf: 'Text Title' # Text Title
+    5fb55d7e-f5f1-45a0-8854-a09f939f4b90: 'Text Title' # Text Title
+    6b626795-b3d3-4a9f-9290-14258ff1d2cd: 'Text Content' # Text Content
+    6fc38edc-42e7-4ded-96ca-e79a84fce1f9: 'Case Studies' # Case Studies
+    7aa3f96c-e9f9-4250-9bcd-1b3bdc3bd44b: 'Testimonial Content' # Testimonial Content
+    7dc88443-49d4-4b62-9bdc-1ea61174d84b: Link # Link
+    8bb55eac-8754-41b7-a599-5c9c0464384a: Page # Page
+    9b91c435-334a-4806-bc83-c0439a5aa619: 'Page - Block' # Page - Block
+    9c14f505-1595-4edf-b148-ef39b255109f: Files # Files
+    9e03e898-05ee-4a11-88d4-f650a279f2b3: Text # Text
+    9ea2ad89-6173-46c9-b767-87dfc01e7630: 'Testimonial Photo' # Testimonial Photo
+    38c04d3c-ffb9-4998-b4e8-4fdef2b45140: 'Background Color' # Background Color
+    58f5cf80-0e50-4f42-b714-fd86d83c3f25: Default # Default
+    70a9ddbe-8a7c-445f-beed-e56c5c87b062: 'Text Color' # Text Color
+    98b33985-738a-42d4-ba69-715d4cfec476: Padding # Padding
+    150cc690-95a5-452b-8fcb-941d33fa0831: General # General
+    0251da4f-848d-44fd-b1e3-3d99e7497aad: Common # Common
+    421c4956-4801-47da-846e-09ec97112a08: 'Padded Images' # Padded Images
+    454c06c2-0822-48d0-ae2a-06891c1647ca: 'Grid Columns' # Grid Columns
+    854deff4-9a47-4f63-8fef-23a6c0361720: Volaris # Volaris
+    3140ea00-e81b-4a46-a027-be95ae54214a: Homepage # Homepage
+    3685bd7e-fc81-41b7-9625-55963ef871ae: Container # Container
+    23157e23-946d-4c8d-a734-d463989bae5a: 'Page - Template' # Page - Template
+    33421b8c-6785-4293-9138-04092ff71a0a: 'Page Block Content' # Page Block Content
+    049868b7-e248-42c1-ae96-5d568bb2675b: 'Case Study Title' # Case Study Title
+    652648f3-da7a-40b1-ac2f-9f33cce4c3f0: 'Case Study Content' # Case Study Content
+    4930992f-525c-475e-9723-4617531c9573: Volaris # Volaris
+    aec1a5d9-1184-4df7-b3c5-636cb53a7e22: 'Case Study Testimonial' # Case Study Testimonial
+    afdb7cf2-f301-47d6-be84-63e2233a71aa: 'Text URL' # Text URL
+    b09a3af7-b1af-4d1b-abbb-48e31b4e941e: 'Case Study Images' # Case Study Images
+    c009ec80-e95a-4943-a387-5055bccbe2b5: Heading # Heading
+    c6beccaf-0c06-44d4-a271-81bd4afa0236: Homepage # Homepage
+    c82ff260-0362-4393-b157-ad3425cffb90: 'Page Template URI' # Page Template URI
+    c18846da-80b6-4931-bec1-ddb09c469730: 'Case Study Logo' # Case Study Logo
+    c111097b-f383-4518-81d8-a4dadf875a13: 'Background Color' # Background Color
+    c6430037-f0dc-4409-9d97-8a43f574bc35: 'Text Color' # Text Color
+    d26c253d-f255-412c-b598-a782265f17f0: 'Image Grid' # Image Grid
+    da359cb4-78db-467d-b169-a51e0e0b5db1: 'Case Study Meta' # Case Study Meta
+    dfd441da-d2f6-47d6-8bc0-732e455675fc: Heading # Heading
+    e0658619-c52b-4227-8563-6418d290d76d: 'Full Width' # Full Width
+    eb75ff3f-8333-4093-9a41-e3608000c3bb: Padding # Padding
+    ee1aa30e-677c-4cee-8209-389d9659e802: Images # Images
+    f4201cc4-6a73-495b-8d4b-46c89e6c4598: 'Text Content' # Text Content
+    fa480103-052f-4a4f-b1e3-c945261051bc: 'Case Studies' # Case Studies
+    fec7c5c9-032a-4bee-b377-6307aa8adc42: Client # Client
+plugins:
+  assetrev:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  blitz:
+    edition: standard
+    enabled: true
+    licenseKey: 98LJPN0YMBPJU2V12U4L7PQ4
+    schemaVersion: 4.5.0
+  dospaces:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  imager-x:
+    edition: pro
+    enabled: true
+    licenseKey: DQBA7WGH9PPE6LRGRIVZ7Z65
+    schemaVersion: 4.0.0
+  imager-x-do-spaces-driver:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  minify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: U55146RL31G0NB8AABWRUAAU
+    schemaVersion: 3.0.12
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+system:
+  edition: solo
+  live: true
+  name: Volaris
+  retryDuration: null
+  schemaVersion: 4.5.3.0
+  timeZone: Europe/London
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

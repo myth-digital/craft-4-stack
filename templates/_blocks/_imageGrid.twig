@@ -1,0 +1,14 @@
+{%- minify -%}
+{% embed '_components/section' with { padding: block.padding.value, container: block.container, class: style } %}
+  {% block sectionContent %}
+ 
+    <div class="grid grid-cols-{{ block.gridColumns ? block.gridColumns : block.images|length }} {{ block.paddedImages ? 'gap-4 md:gap-8' }}">
+      {% for image in block.images %}
+        {% set imageSizes = [{ width: 1566, height: 1566 }] %}
+        {% include '_components/picture' with { lazy: false, image: image, transform: imageSizes, alt: image.alt ? image.alt : image.title } %}
+      {% endfor %}
+    </div>
+
+  {% endblock %}
+{% endembed %}
+{%- endminify -%}

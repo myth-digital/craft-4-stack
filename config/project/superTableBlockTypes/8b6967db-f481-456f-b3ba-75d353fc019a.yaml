@@ -1,0 +1,176 @@
+changedFieldIndicator: 1262492891
+field: aec1a5d9-1184-4df7-b3c5-636cb53a7e22 # Case Study Testimonial
+fieldLayouts:
+  6793fa9a-8d5f-4428-8c88-756319234819:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7aa3f96c-e9f9-4250-9bcd-1b3bdc3bd44b # Testimonial Content
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 14b1b4e4-4b21-4c6c-8963-b0161b53ce97
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fec7c5c9-032a-4bee-b377-6307aa8adc42 # Client
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 85540788-9a5d-4f34-add1-1362dbc988ba
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9ea2ad89-6173-46c9-b767-87dfc01e7630 # Testimonial Photo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f626ce72-b1a4-4183-aa97-c8de57f3a1a1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 4bd87df5-0e39-4d2b-aff8-482dda383399
+        userCondition: null
+fields:
+  7aa3f96c-e9f9-4250-9bcd-1b3bdc3bd44b: # Testimonial Content
+    columnSuffix: dpprzosm
+    contentColumnType: text
+    fieldGroup: null
+    handle: testimonialContent
+    instructions: null
+    name: 'Testimonial Content'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  9ea2ad89-6173-46c9-b767-87dfc01e7630: # Testimonial Photo
+    columnSuffix: ekcujbsx
+    contentColumnType: string
+    fieldGroup: null
+    handle: testimonialPhoto
+    instructions: null
+    name: 'Testimonial Photo'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:150cc690-95a5-452b-8fcb-941d33fa0831' # General
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:150cc690-95a5-452b-8fcb-941d33fa0831' # General
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  fec7c5c9-032a-4bee-b377-6307aa8adc42: # Client
+    columnSuffix: zsuvnael
+    contentColumnType: text
+    fieldGroup: null
+    handle: client
+    instructions: null
+    name: Client
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Name
+                -
+                  - handle
+                  - name
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Title
+                -
+                  - handle
+                  - title
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+            -
+              - col2
+              - ''
+      maxRows: null
+      minRows: null
+      staticRows: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table

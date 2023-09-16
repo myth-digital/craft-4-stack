@@ -1,0 +1,19 @@
+columnSuffix: zufcagal
+contentColumnType: text
+fieldGroup: 6fc38edc-42e7-4ded-96ca-e79a84fce1f9 # Case Studies
+handle: caseStudyTitle
+instructions: null
+name: 'Case Study Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

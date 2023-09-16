@@ -1,0 +1,27 @@
+columnSuffix: lnsvtnyw
+contentColumnType: text
+fieldGroup: 6fc38edc-42e7-4ded-96ca-e79a84fce1f9 # Case Studies
+handle: caseStudyContent
+instructions: null
+name: 'Case Study Content'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field
