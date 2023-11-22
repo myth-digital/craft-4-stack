@@ -27,7 +27,7 @@ If project already exists, this will pull, migrate and apply project config and 
 ## Terminology
 
 ### Layouts
-Layouts form the structure of the website. Out of the box, the stack comes with a `base` layout, which is the <html>, <head> and an over-arching layout structure, which then embeds `global` which will embed each page structure and the site <main>. You can create new layout files as required and embed the necessary parent templates.
+Layouts form the structure of the website. Out of the box, the stack comes with a `base` layout, which is the `<html>`, `<head>` and an over-arching layout structure, which then embeds `global` which will embed each page structure and the site `<main>` You can create new layout files as required and embed the necessary parent templates.
 
 ### Pages
 Using the existing `Pages` entry type within Craft, pages will generate the sitemap for the project. All pages should be content manageable unless specifically functionality-driven. Pages contain a matrix field called `Page Block Content` which contains each of the 'Blocks' outlined below. Each page should be made up of a bunch of matrix blocks stacked together to form the hierarchy.
