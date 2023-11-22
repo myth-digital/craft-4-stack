@@ -1,4 +1,4 @@
-# Craft CMS 4.x, Craft Commerce 4.x (TO DO), Stripe, Tailwind CSS, VueJS and AlpineJS
+# Craft CMS 4.x, Craft Commerce 4.x (TO DO), Stripe (TO DO), Tailwind CSS, VueJS and AlpineJS
 
 This is a [Craft CMS 4.x](https://github.com/craftcms/cms) and [Craft Commerce 4.x](https://github.com/craftcms/commerce) boilerplate [Myth Digital](https://myth.digital) use internally for projects.
 
